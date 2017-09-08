@@ -99,6 +99,9 @@
 		A37532171F628D800035FCF3 /* MilkySpoon */ = {
 			isa = PBXGroup;
 			children = (
+				A375324B1F62AFBB0035FCF3 /* View */,
+				A375324A1F62AFAC0035FCF3 /* Controller */,
+				A37532491F62AF8B0035FCF3 /* Model */,
 				A37532181F628D800035FCF3 /* AppDelegate.swift */,
 				A375321A1F628D800035FCF3 /* ViewController.swift */,
 				A375321C1F628D800035FCF3 /* Main.storyboard */,
@@ -126,6 +129,27 @@
 				A375323D1F628D800035FCF3 /* Info.plist */,
 			);
 			path = MilkySpoonUITests;
+			sourceTree = "<group>";
+		};
+		A37532491F62AF8B0035FCF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A375324A1F62AFAC0035FCF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A375324B1F62AFBB0035FCF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
