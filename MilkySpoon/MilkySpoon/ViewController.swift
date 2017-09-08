@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MilkySpoon
 //
-//  Created by 友金輝幸 on 2017/09/08.
+//  Created by MilkySpoon on 2017/09/08.
 //  Copyright © 2017年 MilkySpoon. All rights reserved.
 //
 
