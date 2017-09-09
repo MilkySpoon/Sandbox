@@ -544,6 +544,7 @@
 				A37532421F628D800035FCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A37532431F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +553,7 @@
 				A37532451F628D800035FCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A37532461F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +562,7 @@
 				A37532481F628D800035FCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
