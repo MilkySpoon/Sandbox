@@ -6,6 +6,5 @@ target 'MilkySpoon' do
 pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
 pod 'AlamofireImage', '~> 3.3'
 pod 'RAMAnimatedTabBarController', "~> 2.0.13"
-pod 'PageMenu'
 pod 'Log'
 end

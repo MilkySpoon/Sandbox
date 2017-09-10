@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--fugafuga-->
+        <!--List Controller-->
         <scene sceneID="0y5-i0-Hw6">
             <objects>
                 <viewController storyboardIdentifier="ListController" id="niw-S6-mlR" customClass="ListController" customModule="MilkySpoon" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" title="fugafuga" image="loading" id="cRL-IU-Tew" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="icons8-search-25.png" id="cRL-IU-Tew" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="h8e-30-tc0" id="rWp-xd-YxX"/>
                         </connections>
@@ -46,7 +46,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" id="L0b-RY-r6u" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                    <tabBarItem key="tabBarItem" title="" image="icons8-map-25.png" id="L0b-RY-r6u" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
                         <connections>
                             <outlet property="animation" destination="LpR-l0-SNS" id="ekL-P1-WQI"/>
                         </connections>
@@ -77,6 +77,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="loading" width="40" height="40"/>
+        <image name="icons8-map-25.png" width="25" height="25"/>
+        <image name="icons8-search-25.png" width="25" height="25"/>
     </resources>
 </document>
