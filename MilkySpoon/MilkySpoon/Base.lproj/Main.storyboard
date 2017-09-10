@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="jWW-5E-ajn">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,23 +9,82 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Search Controller-->
+        <scene sceneID="yBN-QI-6i6">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MilkySpoon" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zFS-8R-T6f" customClass="SearchController" customModule="MilkySpoon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="8Xz-7x-T7O"/>
+                        <viewControllerLayoutGuide type="bottom" id="KzE-MH-2V6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="NwT-p1-gCu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="icons8-search-25.png" selectedImage="icons8-search-25.png" id="hdf-Fc-svc" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="eDZ-hx-466" id="lcR-RK-Ye3"/>
+                        </connections>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UIk-o1-fM9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="eDZ-hx-466" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
             </objects>
-            <point key="canvasLocation" x="48.799999999999997" y="136.28185907046478"/>
+            <point key="canvasLocation" x="1061" y="373"/>
+        </scene>
+        <!--Map Controller-->
+        <scene sceneID="D2H-7i-U7G">
+            <objects>
+                <viewController id="k7J-zH-aEb" customClass="MapController" customModule="MilkySpoon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3cm-Wp-Yu4"/>
+                        <viewControllerLayoutGuide type="bottom" id="wgc-xI-uwi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="z8I-S4-9Rh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oNR-k2-byV">
+                                <rect key="frame" x="16" y="28" width="343" height="582"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="icons8-map-25.png" selectedImage="icons8-map-25.png" id="rBD-Ia-GVg" customClass="RAMAnimatedTabBarItem" customModule="RAMAnimatedTabBarController">
+                        <connections>
+                            <outlet property="animation" destination="hfq-hy-NwI" id="kCf-50-EYM"/>
+                        </connections>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RVl-Eu-S33" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="hfq-hy-NwI" customClass="RAMBounceAnimation" customModule="RAMAnimatedTabBarController"/>
+            </objects>
+            <point key="canvasLocation" x="1060" y="-282.00899550224892"/>
+        </scene>
+        <!--Animated Tab Bar Controller-->
+        <scene sceneID="Wg3-GJ-GBs">
+            <objects>
+                <tabBarController id="jWW-5E-ajn" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Kl3-8e-WB0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="k7J-zH-aEb" kind="relationship" relationship="viewControllers" id="9hS-u1-XVT"/>
+                        <segue destination="zFS-8R-T6f" kind="relationship" relationship="viewControllers" id="8PY-I0-lQU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LIK-uW-XkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111" y="46"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-map-25.png" width="25" height="25"/>
+        <image name="icons8-search-25.png" width="25" height="25"/>
+    </resources>
 </document>

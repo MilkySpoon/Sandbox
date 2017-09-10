@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		598AABD4DA6ED870DCC65B81 /* Pods_MilkySpoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */; };
 		A37532191F628D800035FCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37532181F628D800035FCF3 /* AppDelegate.swift */; };
 		A375321B1F628D800035FCF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375321A1F628D800035FCF3 /* ViewController.swift */; };
 		A375321E1F628D800035FCF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A375321C1F628D800035FCF3 /* Main.storyboard */; };
@@ -15,6 +16,15 @@
 		A37532261F628D800035FCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37532241F628D800035FCF3 /* LaunchScreen.storyboard */; };
 		A37532311F628D800035FCF3 /* MilkySpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37532301F628D800035FCF3 /* MilkySpoonTests.swift */; };
 		A375323C1F628D800035FCF3 /* MilkySpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375323B1F628D800035FCF3 /* MilkySpoonUITests.swift */; };
+		A37DF9931F651AF600A28D3E /* icons8-map-25.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF98F1F651AF600A28D3E /* icons8-map-25.png */; };
+		A37DF9941F651AF600A28D3E /* icons8-search-25.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9901F651AF600A28D3E /* icons8-search-25.png */; };
+		A37DF9951F651AF600A28D3E /* icons8-search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9911F651AF600A28D3E /* icons8-search-50.png */; };
+		A37DF9961F651AF600A28D3E /* icons8-map-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9921F651AF600A28D3E /* icons8-map-50.png */; };
+		A37DF9981F651B4A00A28D3E /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9971F651B4A00A28D3E /* MapController.swift */; };
+		A37DF99A1F651B6200A28D3E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9991F651B6200A28D3E /* TabBarController.swift */; };
+		A37DF99C1F651B7700A28D3E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF99B1F651B7700A28D3E /* SearchController.swift */; };
+		BC14E26EBBC2576A94F79B03 /* Pods_MilkySpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */; };
+		F3B80A77C71B28D48A9C556E /* Pods_MilkySpoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1802C7B718CD42C9771EA74B /* Pods-MilkySpoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28DA3477AF8CF8A76F0A7969 /* Pods-MilkySpoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon.debug.xcconfig"; sourceTree = "<group>"; };
 		A37532151F628D800035FCF3 /* MilkySpoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkySpoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37532181F628D800035FCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A375321A1F628D800035FCF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,20 @@
 		A37532371F628D800035FCF3 /* MilkySpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkySpoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A375323B1F628D800035FCF3 /* MilkySpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkySpoonUITests.swift; sourceTree = "<group>"; };
 		A375323D1F628D800035FCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37DF98F1F651AF600A28D3E /* icons8-map-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-map-25.png"; sourceTree = "<group>"; };
+		A37DF9901F651AF600A28D3E /* icons8-search-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-25.png"; sourceTree = "<group>"; };
+		A37DF9911F651AF600A28D3E /* icons8-search-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-50.png"; sourceTree = "<group>"; };
+		A37DF9921F651AF600A28D3E /* icons8-map-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-map-50.png"; sourceTree = "<group>"; };
+		A37DF9971F651B4A00A28D3E /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		A37DF9991F651B6200A28D3E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A37DF99B1F651B7700A28D3E /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		BEA3ADE0BF23FDA270B18527 /* Pods-MilkySpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58D9E839A5759D7659E4B5D /* Pods-MilkySpoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon.release.xcconfig"; sourceTree = "<group>"; };
+		DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96D6D2F24955C25AF27C810 /* Pods-MilkySpoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED80DA8CCF621B3A19E06F67 /* Pods-MilkySpoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B80A77C71B28D48A9C556E /* Pods_MilkySpoon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598AABD4DA6ED870DCC65B81 /* Pods_MilkySpoonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC14E26EBBC2576A94F79B03 /* Pods_MilkySpoonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B16FA21427C2CF329CF803E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28DA3477AF8CF8A76F0A7969 /* Pods-MilkySpoon.debug.xcconfig */,
+				D58D9E839A5759D7659E4B5D /* Pods-MilkySpoon.release.xcconfig */,
+				BEA3ADE0BF23FDA270B18527 /* Pods-MilkySpoonTests.debug.xcconfig */,
+				E96D6D2F24955C25AF27C810 /* Pods-MilkySpoonTests.release.xcconfig */,
+				1802C7B718CD42C9771EA74B /* Pods-MilkySpoonUITests.debug.xcconfig */,
+				ED80DA8CCF621B3A19E06F67 /* Pods-MilkySpoonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A375320C1F628D800035FCF3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				A375322F1F628D800035FCF3 /* MilkySpoonTests */,
 				A375323A1F628D800035FCF3 /* MilkySpoonUITests */,
 				A37532161F628D800035FCF3 /* Products */,
+				3B16FA21427C2CF329CF803E /* Pods */,
+				BD164C5D354E7E401681653A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +185,10 @@
 		A375324B1F62AFBB0035FCF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A37DF98E1F651AE100A28D3E /* Img */,
+				A37DF9971F651B4A00A28D3E /* MapController.swift */,
+				A37DF9991F651B6200A28D3E /* TabBarController.swift */,
+				A37DF99B1F651B7700A28D3E /* SearchController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,6 +200,27 @@
 			name = ViewModel;
 			sourceTree = "<group>";
 		};
+		A37DF98E1F651AE100A28D3E /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				A37DF98F1F651AF600A28D3E /* icons8-map-25.png */,
+				A37DF9901F651AF600A28D3E /* icons8-search-25.png */,
+				A37DF9911F651AF600A28D3E /* icons8-search-50.png */,
+				A37DF9921F651AF600A28D3E /* icons8-map-50.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		BD164C5D354E7E401681653A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */,
+				C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */,
+				DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37532401F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoon" */;
 			buildPhases = (
+				14E6A52568EDEF1F5D747E82 /* [CP] Check Pods Manifest.lock */,
 				A37532111F628D800035FCF3 /* Sources */,
 				A37532121F628D800035FCF3 /* Frameworks */,
 				A37532131F628D800035FCF3 /* Resources */,
+				667D0A471AA5958A2EE47CF7 /* [CP] Embed Pods Frameworks */,
+				F43B79CAA09AE9346172FC62 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37532431F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonTests" */;
 			buildPhases = (
+				3DC18BBD4B3B9C1E6586F7E4 /* [CP] Check Pods Manifest.lock */,
 				A37532281F628D800035FCF3 /* Sources */,
 				A37532291F628D800035FCF3 /* Frameworks */,
 				A375322A1F628D800035FCF3 /* Resources */,
+				FFC57DAD6E669CF92B8012B8 /* [CP] Embed Pods Frameworks */,
+				D4BCDDA49A528FEA83DDBD3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37532461F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonUITests" */;
 			buildPhases = (
+				94ECF8E96D2AEC4DFF3A8297 /* [CP] Check Pods Manifest.lock */,
 				A37532331F628D800035FCF3 /* Sources */,
 				A37532341F628D800035FCF3 /* Frameworks */,
 				A37532351F628D800035FCF3 /* Resources */,
+				697C560BC6F4FD70D3523838 /* [CP] Embed Pods Frameworks */,
+				0B9376CDDBC7BFB9C50CDBD2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +343,10 @@
 				A37532261F628D800035FCF3 /* LaunchScreen.storyboard in Resources */,
 				A37532231F628D800035FCF3 /* Assets.xcassets in Resources */,
 				A375321E1F628D800035FCF3 /* Main.storyboard in Resources */,
+				A37DF9961F651AF600A28D3E /* icons8-map-50.png in Resources */,
+				A37DF9931F651AF600A28D3E /* icons8-map-25.png in Resources */,
+				A37DF9951F651AF600A28D3E /* icons8-search-50.png in Resources */,
+				A37DF9941F651AF600A28D3E /* icons8-search-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +366,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B9376CDDBC7BFB9C50CDBD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14E6A52568EDEF1F5D747E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkySpoon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DC18BBD4B3B9C1E6586F7E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkySpoonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		667D0A471AA5958A2EE47CF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		697C560BC6F4FD70D3523838 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94ECF8E96D2AEC4DFF3A8297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkySpoonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BCDDA49A528FEA83DDBD3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43B79CAA09AE9346172FC62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFC57DAD6E669CF92B8012B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A37532111F628D800035FCF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37DF9981F651B4A00A28D3E /* MapController.swift in Sources */,
+				A37DF99C1F651B7700A28D3E /* SearchController.swift in Sources */,
 				A375321B1F628D800035FCF3 /* ViewController.swift in Sources */,
 				A37532191F628D800035FCF3 /* AppDelegate.swift in Sources */,
+				A37DF99A1F651B6200A28D3E /* TabBarController.swift in Sources */,
 				A37532211F628D800035FCF3 /* MilkySpoon.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +690,7 @@
 		};
 		A37532411F628D800035FCF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28DA3477AF8CF8A76F0A7969 /* Pods-MilkySpoon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
@@ -456,6 +704,7 @@
 		};
 		A37532421F628D800035FCF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58D9E839A5759D7659E4B5D /* Pods-MilkySpoon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
@@ -469,6 +718,7 @@
 		};
 		A37532441F628D800035FCF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA3ADE0BF23FDA270B18527 /* Pods-MilkySpoonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +734,7 @@
 		};
 		A37532451F628D800035FCF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96D6D2F24955C25AF27C810 /* Pods-MilkySpoonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +750,7 @@
 		};
 		A37532471F628D800035FCF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1802C7B718CD42C9771EA74B /* Pods-MilkySpoonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
@@ -513,6 +765,7 @@
 		};
 		A37532481F628D800035FCF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED80DA8CCF621B3A19E06F67 /* Pods-MilkySpoonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
