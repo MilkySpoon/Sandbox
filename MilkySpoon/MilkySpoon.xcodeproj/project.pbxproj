@@ -16,6 +16,13 @@
 		A37532261F628D800035FCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37532241F628D800035FCF3 /* LaunchScreen.storyboard */; };
 		A37532311F628D800035FCF3 /* MilkySpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37532301F628D800035FCF3 /* MilkySpoonTests.swift */; };
 		A375323C1F628D800035FCF3 /* MilkySpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375323B1F628D800035FCF3 /* MilkySpoonUITests.swift */; };
+		A37DF9931F651AF600A28D3E /* icons8-map-25.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF98F1F651AF600A28D3E /* icons8-map-25.png */; };
+		A37DF9941F651AF600A28D3E /* icons8-search-25.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9901F651AF600A28D3E /* icons8-search-25.png */; };
+		A37DF9951F651AF600A28D3E /* icons8-search-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9911F651AF600A28D3E /* icons8-search-50.png */; };
+		A37DF9961F651AF600A28D3E /* icons8-map-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A37DF9921F651AF600A28D3E /* icons8-map-50.png */; };
+		A37DF9981F651B4A00A28D3E /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9971F651B4A00A28D3E /* MapController.swift */; };
+		A37DF99A1F651B6200A28D3E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9991F651B6200A28D3E /* TabBarController.swift */; };
+		A37DF99C1F651B7700A28D3E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF99B1F651B7700A28D3E /* SearchController.swift */; };
 		BC14E26EBBC2576A94F79B03 /* Pods_MilkySpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */; };
 		F3B80A77C71B28D48A9C556E /* Pods_MilkySpoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +61,13 @@
 		A37532371F628D800035FCF3 /* MilkySpoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkySpoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A375323B1F628D800035FCF3 /* MilkySpoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkySpoonUITests.swift; sourceTree = "<group>"; };
 		A375323D1F628D800035FCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37DF98F1F651AF600A28D3E /* icons8-map-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-map-25.png"; sourceTree = "<group>"; };
+		A37DF9901F651AF600A28D3E /* icons8-search-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-25.png"; sourceTree = "<group>"; };
+		A37DF9911F651AF600A28D3E /* icons8-search-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-search-50.png"; sourceTree = "<group>"; };
+		A37DF9921F651AF600A28D3E /* icons8-map-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-map-50.png"; sourceTree = "<group>"; };
+		A37DF9971F651B4A00A28D3E /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		A37DF9991F651B6200A28D3E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A37DF99B1F651B7700A28D3E /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		BEA3ADE0BF23FDA270B18527 /* Pods-MilkySpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,6 +185,10 @@
 		A375324B1F62AFBB0035FCF3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A37DF98E1F651AE100A28D3E /* Img */,
+				A37DF9971F651B4A00A28D3E /* MapController.swift */,
+				A37DF9991F651B6200A28D3E /* TabBarController.swift */,
+				A37DF99B1F651B7700A28D3E /* SearchController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -180,6 +198,17 @@
 			children = (
 			);
 			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		A37DF98E1F651AE100A28D3E /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				A37DF98F1F651AF600A28D3E /* icons8-map-25.png */,
+				A37DF9901F651AF600A28D3E /* icons8-search-25.png */,
+				A37DF9911F651AF600A28D3E /* icons8-search-50.png */,
+				A37DF9921F651AF600A28D3E /* icons8-map-50.png */,
+			);
+			name = Img;
 			sourceTree = "<group>";
 		};
 		BD164C5D354E7E401681653A /* Frameworks */ = {
@@ -314,6 +343,10 @@
 				A37532261F628D800035FCF3 /* LaunchScreen.storyboard in Resources */,
 				A37532231F628D800035FCF3 /* Assets.xcassets in Resources */,
 				A375321E1F628D800035FCF3 /* Main.storyboard in Resources */,
+				A37DF9961F651AF600A28D3E /* icons8-map-50.png in Resources */,
+				A37DF9931F651AF600A28D3E /* icons8-map-25.png in Resources */,
+				A37DF9951F651AF600A28D3E /* icons8-search-50.png in Resources */,
+				A37DF9941F651AF600A28D3E /* icons8-search-25.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,9 +424,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -489,8 +533,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A37DF9981F651B4A00A28D3E /* MapController.swift in Sources */,
+				A37DF99C1F651B7700A28D3E /* SearchController.swift in Sources */,
 				A375321B1F628D800035FCF3 /* ViewController.swift in Sources */,
 				A37532191F628D800035FCF3 /* AppDelegate.swift in Sources */,
+				A37DF99A1F651B6200A28D3E /* TabBarController.swift in Sources */,
 				A37532211F628D800035FCF3 /* MilkySpoon.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
