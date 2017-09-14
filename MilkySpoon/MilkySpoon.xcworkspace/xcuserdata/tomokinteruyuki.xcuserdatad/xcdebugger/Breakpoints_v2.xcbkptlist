@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MilkySpoon/MapController.swift"
+            timestampString = "527042430.871506"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MilkySpoon.MapController.__deallocating_deinit"
+                  moduleName = "MilkySpoon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomokinteruyuki/Documents/workspace/iOS/Business/MilkySpoon/ios/MilkySpoon/MilkySpoon/MapController.swift"
+                  timestampString = "527042727.060984"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MilkySpoon.MapController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MilkySpoon.MapController"
+                  moduleName = "MilkySpoon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomokinteruyuki/Documents/workspace/iOS/Business/MilkySpoon/ios/MilkySpoon/MilkySpoon/MapController.swift"
+                  timestampString = "527042727.067606"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MilkySpoon.MapController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; MilkySpoon.MapController"
+                  moduleName = "MilkySpoon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomokinteruyuki/Documents/workspace/iOS/Business/MilkySpoon/ios/MilkySpoon/MilkySpoon/MapController.swift"
+                  timestampString = "527042727.071022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MilkySpoon.MapController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MilkySpoon.MapController&gt;"
+                  moduleName = "MilkySpoon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomokinteruyuki/Documents/workspace/iOS/Business/MilkySpoon/ios/MilkySpoon/MilkySpoon/MapController.swift"
+                  timestampString = "527042727.074625"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MilkySpoon.MapController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MilkySpoon.MapController&gt;"
+                  moduleName = "MilkySpoon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomokinteruyuki/Documents/workspace/iOS/Business/MilkySpoon/ios/MilkySpoon/MilkySpoon/MapController.swift"
+                  timestampString = "527042727.078209"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

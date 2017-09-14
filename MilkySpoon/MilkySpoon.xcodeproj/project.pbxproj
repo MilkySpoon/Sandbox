@@ -23,6 +23,7 @@
 		A37DF9981F651B4A00A28D3E /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9971F651B4A00A28D3E /* MapController.swift */; };
 		A37DF99A1F651B6200A28D3E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF9991F651B6200A28D3E /* TabBarController.swift */; };
 		A37DF99C1F651B7700A28D3E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37DF99B1F651B7700A28D3E /* SearchController.swift */; };
+		A3D84A5B1F664EAA00BB0C42 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D84A5A1F664EAA00BB0C42 /* CoreLocation.framework */; };
 		BC14E26EBBC2576A94F79B03 /* Pods_MilkySpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */; };
 		F3B80A77C71B28D48A9C556E /* Pods_MilkySpoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		A37DF9971F651B4A00A28D3E /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		A37DF9991F651B6200A28D3E /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		A37DF99B1F651B7700A28D3E /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		A3D84A5A1F664EAA00BB0C42 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BEA3ADE0BF23FDA270B18527 /* Pods-MilkySpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D84A5B1F664EAA00BB0C42 /* CoreLocation.framework in Frameworks */,
 				F3B80A77C71B28D48A9C556E /* Pods_MilkySpoon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +217,7 @@
 		BD164C5D354E7E401681653A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A3D84A5A1F664EAA00BB0C42 /* CoreLocation.framework */,
 				C3F000237B02AEB342C1E5E2 /* Pods_MilkySpoon.framework */,
 				C4B95292F49A7E9AB621095A /* Pods_MilkySpoonTests.framework */,
 				DEF8BA50B0CFF130FCE02CF8 /* Pods_MilkySpoonUITests.framework */,
