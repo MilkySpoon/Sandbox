@@ -2,36 +2,44 @@ PODS:
   - Alamofire (4.5.1)
   - AlamofireImage (3.3.0):
     - Alamofire (~> 4.5)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
   - Log (1.0)
-  - PageMenu (2.0.0)
   - RAMAnimatedTabBarController (2.0.13)
   - Spring (1.0.3)
 
 DEPENDENCIES:
   - AlamofireImage (~> 3.3)
+  - GoogleMaps
+  - GooglePlaces
   - Log
-  - PageMenu
   - RAMAnimatedTabBarController (~> 2.0.13)
-  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift4`)
 
 EXTERNAL SOURCES:
   Spring:
-    :branch: swift3
+    :branch: swift4
     :git: https://github.com/MengTo/Spring.git
 
 CHECKOUT OPTIONS:
   Spring:
-    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :commit: b65cb00a1adc7e810e2ad10b174b840b6d520ac3
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
   Log: 5e368c9528db07517d18d2d04ff5fe2b6f5a1e21
-  PageMenu: 9c38fd7e0d9ef4b1408320f55bb907bbc0e538dc
   RAMAnimatedTabBarController: 2510f3b66954c3f77ea1042a35d34df8f5f3b604
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
 
-PODFILE CHECKSUM: 7fd38eb9efe8cd09f999966498dd8f0fb392548d
+PODFILE CHECKSUM: b1d98f88b9693eae39679cb93f4fdbd47749c67c
 
 COCOAPODS: 1.3.1

@@ -10,7 +10,7 @@ target 'MilkySpoon' do
   pod 'GoogleMaps'
   pod 'GooglePlaces'
 
-  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift4'
   pod 'AlamofireImage', '~> 3.3'
   pod 'RAMAnimatedTabBarController', "~> 2.0.13"
   pod 'Log'

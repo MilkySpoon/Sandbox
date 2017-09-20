@@ -22,6 +22,8 @@
 		A37532261F628D800035FCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37532241F628D800035FCF3 /* LaunchScreen.storyboard */; };
 		A37532311F628D800035FCF3 /* MilkySpoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37532301F628D800035FCF3 /* MilkySpoonTests.swift */; };
 		A375323C1F628D800035FCF3 /* MilkySpoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A375323B1F628D800035FCF3 /* MilkySpoonUITests.swift */; };
+		BC480C7C896E1B943A38AE5E /* Pods_MilkySpoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8BC328F66BFB43A93440446 /* Pods_MilkySpoonUITests.framework */; };
+		FC8FB2706AD7829BDA3B536C /* Pods_MilkySpoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25054A6FC9FED10224124402 /* Pods_MilkySpoonTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25054A6FC9FED10224124402 /* Pods_MilkySpoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAD8E0A020587092869851F /* Pods-MilkySpoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5787CBEB359F259F39BFA22E /* Pods-MilkySpoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86DCAAC0F4FE58E1C921C7BB /* Pods-MilkySpoonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9DB62DC8DAAF3F64355E44AF /* Pods-MilkySpoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon.debug.xcconfig"; sourceTree = "<group>"; };
 		A31D9D3C1F642C3300A3DD19 /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		A31D9D4E1F64428000A3DD19 /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,8 @@
 		A375323D1F628D800035FCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A62FB5E8F8086C82F349781C /* Pods-MilkySpoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon.release.xcconfig"; sourceTree = "<group>"; };
 		DFFDF2D2AE31BE6B2FEF41AA /* Pods_MilkySpoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10F6A7D1A36D2D16FB61BA9 /* Pods-MilkySpoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MilkySpoonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8BC328F66BFB43A93440446 /* Pods_MilkySpoonUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MilkySpoonUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8FB2706AD7829BDA3B536C /* Pods_MilkySpoonTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC480C7C896E1B943A38AE5E /* Pods_MilkySpoonUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				DFFDF2D2AE31BE6B2FEF41AA /* Pods_MilkySpoon.framework */,
+				25054A6FC9FED10224124402 /* Pods_MilkySpoonTests.framework */,
+				E8BC328F66BFB43A93440446 /* Pods_MilkySpoonUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,6 +210,10 @@
 			children = (
 				9DB62DC8DAAF3F64355E44AF /* Pods-MilkySpoon.debug.xcconfig */,
 				A62FB5E8F8086C82F349781C /* Pods-MilkySpoon.release.xcconfig */,
+				2EAD8E0A020587092869851F /* Pods-MilkySpoonTests.debug.xcconfig */,
+				E10F6A7D1A36D2D16FB61BA9 /* Pods-MilkySpoonTests.release.xcconfig */,
+				5787CBEB359F259F39BFA22E /* Pods-MilkySpoonUITests.debug.xcconfig */,
+				86DCAAC0F4FE58E1C921C7BB /* Pods-MilkySpoonUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -229,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37532431F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonTests" */;
 			buildPhases = (
+				9280D6129F022DFC5357BA38 /* [CP] Check Pods Manifest.lock */,
 				A37532281F628D800035FCF3 /* Sources */,
 				A37532291F628D800035FCF3 /* Frameworks */,
 				A375322A1F628D800035FCF3 /* Resources */,
+				518F9707895915222C4EC57A /* [CP] Embed Pods Frameworks */,
+				CEA15F35E6CDC050D149AD08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A37532461F628D800035FCF3 /* Build configuration list for PBXNativeTarget "MilkySpoonUITests" */;
 			buildPhases = (
+				82E2D754E940EFAD24E64B41 /* [CP] Check Pods Manifest.lock */,
 				A37532331F628D800035FCF3 /* Sources */,
 				A37532341F628D800035FCF3 /* Frameworks */,
 				A37532351F628D800035FCF3 /* Resources */,
+				22104E88A18DD9C7FFEA5B1A /* [CP] Embed Pods Frameworks */,
+				F066A90F28D916F5BDAF8004 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,13 +370,32 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22104E88A18DD9C7FFEA5B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47510B34B3BACD608B9FE718 /* [CP] Check Pods Manifest.lock */ = {
@@ -385,7 +426,6 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Log/Log.framework",
-				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
 				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
 				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
 			);
@@ -394,13 +434,93 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Log.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoon/Pods-MilkySpoon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		518F9707895915222C4EC57A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82E2D754E940EFAD24E64B41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkySpoonUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9280D6129F022DFC5357BA38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MilkySpoonTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA15F35E6CDC050D149AD08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonTests/Pods-MilkySpoonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F066A90F28D916F5BDAF8004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MilkySpoonUITests/Pods-MilkySpoonUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -594,6 +714,7 @@
 		};
 		A37532441F628D800035FCF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EAD8E0A020587092869851F /* Pods-MilkySpoonTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -609,6 +730,7 @@
 		};
 		A37532451F628D800035FCF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10F6A7D1A36D2D16FB61BA9 /* Pods-MilkySpoonTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -624,6 +746,7 @@
 		};
 		A37532471F628D800035FCF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5787CBEB359F259F39BFA22E /* Pods-MilkySpoonUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
@@ -638,6 +761,7 @@
 		};
 		A37532481F628D800035FCF3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DCAAC0F4FE58E1C921C7BB /* Pods-MilkySpoonUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH6Z435YS3;
