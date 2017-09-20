@@ -18,13 +18,12 @@ class MapController: UIViewController {
     var mapView: GMSMapView!
     var placesClient: GMSPlacesClient!
     var zoomLevel: Float = 15.0
-    
-    
     // おおよその位置を保持する配列
     var likelyPlaces: [GMSPlace] = []
     
     // 正確な位置情報を取得するための変数
     var selectedPlace: GMSPlace?
+    @IBOutlet weak var map: UIView!
     
     // デフォルトの位置情報
     let defaultLocation = CLLocation(latitude: -33.869405, longitude: 151.199)
@@ -32,11 +31,10 @@ class MapController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
         // Google Mapの初期設定
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.requestAlwaysAuthorization()
-        locationManager.distanceFilter = 50
+        locationManager.distanceFilter = 100
         locationManager.startUpdatingLocation()
         locationManager.delegate = self
         
@@ -46,13 +44,14 @@ class MapController: UIViewController {
         let camera = GMSCameraPosition.camera(withLatitude: defaultLocation.coordinate.latitude,
                                               longitude: defaultLocation.coordinate.longitude,
                                               zoom: zoomLevel)
-        mapView = GMSMapView.map(withFrame: view.bounds, camera: camera)
+        mapView = GMSMapView.map(withFrame: self.map.bounds, camera: camera)
         mapView.settings.myLocationButton = true
+        mapView.mapType = .terrain
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         mapView.isMyLocationEnabled = true
         
         // 現在位置を取得した状態でViewに表示
-        view.addSubview(mapView)
+        self.map.addSubview(mapView)
         mapView.isHidden = false
         
         listLikelyPlaces()
