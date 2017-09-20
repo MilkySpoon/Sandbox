@@ -1,0 +1,6 @@
+framework module Pods_MilkySpoonTests {
+  umbrella header "Pods-MilkySpoonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

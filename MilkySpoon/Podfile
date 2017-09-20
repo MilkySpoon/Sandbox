@@ -3,8 +3,26 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'MilkySpoon' do
-pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-pod 'AlamofireImage', '~> 3.3'
-pod 'RAMAnimatedTabBarController', "~> 2.0.13"
-pod 'Log'
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MilkySpoon
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+  pod 'AlamofireImage', '~> 3.3'
+  pod 'RAMAnimatedTabBarController', "~> 2.0.13"
+  pod 'Log'
+  
+target 'MilkySpoonTests' do
+    inherit! :search_paths
+    # Pods for testing
+ end
+
+  target 'MilkySpoonUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
 end
